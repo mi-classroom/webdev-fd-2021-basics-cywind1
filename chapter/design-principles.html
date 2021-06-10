@@ -155,19 +155,73 @@
         </thead>
         <tbody>
             <tr>
-                <td>Experience</td>
-                <td>Meaningful, Pleasurable, Convenient</td>
-                <td>personal significance, memorable experiences, super easy to use, works like I think</td>
+                <th rowspan="3">Experience</th>
+                <td>Meaningful</td>
+                <td>personal significance</td> 
+            </tr>
+            <tr>
+                <td>Pleasurable</td>
+                <td>memorable experiences</td>
+            </tr>
+            <tr>
+                <td>Convenient</td>
+                <td>super easy to use, works like I think</td>
             </tr>
 
             <tr>
-                <td>Tasks</td>
-                <td>Usable, Reliable, Functional</td>
-                <td>can be used without difficulty, is available and accurate, works as programmed</td>
+                <th rowspan="3">Tasks</th>
+                <td>Usable</td>
+                <td>can be used without difficulty</td> 
+            </tr>
+            <tr>
+                <td>Reliable</td>
+                <td>is available and accurate</td> 
+            </tr>
+            <tr>
+                <td>Functional</td>
+                <td>works as programmed</td>
             </tr>
         </tbody>
     </table>
     </section>
+    <br>
+    <br>
+    <form>
+        <fieldset>
+            <head>Kommentar</head>
+            <hr>
+            <label for = "vorname">Vorname</label>
+            <input type = "text" id = "vorname"name = "vorname" placeholder = "Erica">
+
+            <label for = "nachname">Nachname</label>
+            <input type = "text" id = "nachname"name = "nachname" placeholder = "Anna">
+            <br>
+            <br>
+            <label for = "email">Email</label>
+            <input type = "text" id = "email"name = "email" placeholder = "anna@gmail.com">
+            <br>
+            <br>           
+            Profilfoto
+            <action="/action_page.php">
+            <input type="file" id="myFile" name="profilfoto">
+            <br>  
+            <br>  
+            Texteingabe Feld
+            <br>  
+            <br>  
+            <textarea cols="80" rows="3" value="address"> </textarea>
+            <br> 
+            <input type="checkbox" id="anzeige" name="anzeige" value="anzeige">
+            <label for="anzeige"> Der Autorenname soll in einer späteren Anzeige anonymisiert werden.</label><br>
+
+            <input type="checkbox" id="daten" name="daten" value="daten">
+            <label for="vehicle2"> Bestätigung, dass die Datenschutzerklärung gelesen wurde. </label><br>
+            <br> 
+            <button> Senden </button>
+ 
+        </form>        
+        </fieldset>
+    </form>
     </main>
 
 </body>
